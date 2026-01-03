@@ -1,0 +1,58 @@
+name: live_location_tracker
+description: "A live location tracking Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # 📍 Location tracking
+  geolocator: ^10.1.0
+  flutter_foreground_task: ^6.1.3
+
+  # 🔥 Firebase
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.0
+  firebase_auth: ^4.17.0
+  firebase_messaging: ^14.7.0
+
+  # 🧠 State management
+  flutter_riverpod: ^2.4.10
+
+  # 🗺️ Google Maps
+  google_maps_flutter: ^2.6.0
+
+  # 🌐 Connectivity
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # 🚀 App icon generator (CORRECT)
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # 📁 Assets
+  assets:
+    - assets/icon/
+
+# 🚀 APP ICON CONFIG (MUST BE OUTSIDE `flutter:`)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/app_icon.jpeg
+

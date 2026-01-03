@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46476919256",
+    "project_id": "live-location-tracker-zain",
+    "storage_bucket": "live-location-tracker-zain.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46476919256:android:37a3a04786cf522573f2ad",
+        "android_client_info": {
+          "package_name": "com.example.live_location_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQD9mUA_a2b0DAABp-PW-WrBCFx8MsCcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
