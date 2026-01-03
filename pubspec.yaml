@@ -12,6 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  share_plus: ^7.0.0  
+
   # iOS-style icons
   cupertino_icons: ^1.0.8
 
@@ -29,7 +33,7 @@ dependencies:
   flutter_riverpod: ^2.4.10
 
   # 🗺️ Google Maps
-  google_maps_flutter: ^2.6.0
+  # google_maps_flutter: ^2.6.0
 
   # 🌐 Connectivity
   connectivity_plus: ^5.0.2
