@@ -1,4 +1,4 @@
-##📍 Live Location Tracker (Flutter) ##
+#📍 Live Location Tracker (Flutter) 
 📌 Overview
 
 Live Location Tracker is a Flutter-based mobile application that tracks a user’s real-time location, runs reliably in the background, and stores location updates securely in Firebase.
